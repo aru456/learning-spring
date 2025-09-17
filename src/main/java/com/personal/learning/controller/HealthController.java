@@ -11,6 +11,6 @@ public class HealthController {
 
     @GetMapping("/api/health")
     public Map<String, String> healthCheck(){
-        return Map.of("status", "Up", "message" , " Spring Boot Backend is Running fine");
+        return Map.of("status", "Up", "message" , " Spring Boot Backend is Running Well");
     }
 }
